@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="stylesheet/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="header-name">Address Book</h1>
+        <nav>
+          <ul style="margin:5px 0;">
+            <li><a href="index.html" style="float:right;margin:5px 10px 0 0;">View Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <form id="update-form" action="index.html" method="" name="update-form">
+          <div class="contact-info">
+            <input type="text" name="firstname" value="" placeholder="firstname" required>
+          </div>
+
+          <div class="contact-info">
+            <input type="text" name="lastname" value="" placeholder="lastname" required>
+          </div>
+
+          <div class="contact-info">
+            <input type="phone" name="phone" value="" placeholder="phone" required>
+          </div>
+
+          <div class="contact-info">
+            <input type="email" name="email" value="" placeholder="email" required>
+          </div>
+
+          <button id="update" class="customButton" type="submit" name="button">+</button>
+        </form>
+
+      </main>
+    </div>
+    <script type="text/javascript" src="./js/edit.js"></script>
+  </body>
+</html>
